@@ -7,6 +7,7 @@ import CssBaseline from "@mui/material/CssBaseline"
 import theme from "../../theme"
 import Navbar from "@/components/Navbar"
 import Footer from "@/components/Footer"
+import MediaQueryProvider from "@/components/MediaQueryProvider" // Importar el nuevo proveedor
 
 const inter = Inter({ subsets: ["latin"] })
 
@@ -27,13 +28,14 @@ export default function RootLayout({
         <AppRouterCacheProvider>
           <ThemeProvider theme={theme}>
             <CssBaseline />
-            <Navbar />
-            {children}
-            <Footer />
+            <MediaQueryProvider> {/* Envolver todo dentro del proveedor */}
+              <Navbar />
+              {children}
+              <Footer />
+            </MediaQueryProvider>
           </ThemeProvider>
         </AppRouterCacheProvider>
       </body>
     </html>
   )
 }
-

@@ -1,3 +1,4 @@
+"use client";
 import { Box, Container, Typography, IconButton, useTheme, useMediaQuery } from "@mui/material"
 import { GithubIcon, LinkedInIcon, MailIcon } from "../components/ui/Icons"
 
