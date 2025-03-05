@@ -20,16 +20,16 @@ import {
         title: "E-commerce Platform",
         description:
           "Una plataforma de comercio electrónico completa con carrito de compras, pagos y gestión de pedidos.",
-        image: "/placeholder.svg?height=200&width=400",
+        image: "/assets/img/e-commerce.png?height=200&width=400",
         tags: ["React", "Node.js", "MongoDB", "Stripe"],
-        github: "https://github.com/username/ecommerce",
-        demo: "https://ecommerce-demo.com",
+        github: "https://github.com/Artenlaclase/Proyecto-7-Aplicaci-nFullStackCE",
+        demo: "https://tiendatiktak.netlify.app/",
       },
       {
         title: "Task Management App",
         description:
           "Aplicación de gestión de tareas con funcionalidades de arrastrar y soltar, etiquetas y colaboración en tiempo real.",
-        image: "/placeholder.svg?height=200&width=400",
+        image: "/assets/img/cdemchile.png?height=200&width=400",
         tags: ["Next.js", "TypeScript", "Firebase", "Material UI"],
         github: "https://github.com/username/taskapp",
         demo: "https://taskapp-demo.com",
@@ -37,7 +37,7 @@ import {
       {
         title: "Portfolio Website",
         description: "Sitio web de portafolio personal con secciones para proyectos, habilidades y contacto.",
-        image: "/placeholder.svg?height=200&width=400",
+        image: "/assets/img/Oceanicaweb.png?height=200&width=400",
         tags: ["React", "Material UI", "Framer Motion"],
         github: "https://github.com/username/portfolio",
         demo: "https://portfolio-demo.com",
