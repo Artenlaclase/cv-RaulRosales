@@ -72,7 +72,7 @@ export default function Hero() {
               <Stack direction="row" spacing={2} sx={{ mt: 3 }}>
                 <Button
                   component="a"
-                  href="https://linkedin.com/in/raulrosales"
+                  href="https://www.linkedin.com/in/raulrosalesrebolledo/"
                   target="_blank"
                   aria-label="LinkedIn"
                   variant="text"
@@ -83,7 +83,7 @@ export default function Hero() {
                 </Button>
                 <Button
                   component="a"
-                  href="https://github.com/raulrosales"
+                  href="https://github.com/artenlaclase"
                   target="_blank"
                   aria-label="GitHub"
                   variant="text"
@@ -132,7 +132,7 @@ export default function Hero() {
               }}
             >
               <Image
-                src="/placeholder.svg?height=400&width=400"
+                src="/assets/img/placeholder.jpg?height=400&width=400"
                 alt="Raúl Rosales"
                 fill
                 style={{ objectFit: "cover" }}
