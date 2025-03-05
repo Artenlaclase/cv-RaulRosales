@@ -1,3 +1,4 @@
+"use client";
 import { Box, Container, Typography, useTheme, useMediaQuery } from "@mui/material"
 
 export default function About() {
