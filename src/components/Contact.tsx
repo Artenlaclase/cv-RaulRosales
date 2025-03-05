@@ -2,7 +2,7 @@
 
 import { useState } from "react"
 import { Box, Container, Typography, TextField, Button, Paper, Snackbar, Alert } from "@mui/material"
-import Grid2 from "@mui/material/Unstable_Grid2"
+import Grid from "@mui/material/Grid"
 
 import SendIcon from "@mui/icons-material/Send"
 
@@ -45,8 +45,8 @@ export default function Contact() {
 
         <Paper elevation={3} sx={{ p: 4 }}>
           <form onSubmit={handleSubmit}>
-            <Grid2 container spacing={3}>
-              <Grid2 item xs={12} sm={6}>
+            <Grid container spacing={3}>
+              <Grid item xs={12} sm={6}>
                 <TextField
                   required
                   fullWidth
@@ -55,8 +55,8 @@ export default function Contact() {
                   value={formData.name}
                   onChange={handleChange}
                 />
-              </Grid2>
-              <Grid2 item xs={12} sm={6}>
+              </Grid>
+              <Grid item xs={12} sm={6}>
                 <TextField
                   required
                   fullWidth
@@ -66,8 +66,8 @@ export default function Contact() {
                   value={formData.email}
                   onChange={handleChange}
                 />
-              </Grid2>
-              <Grid2 item xs={12}>
+              </Grid>
+              <Grid item xs={12}>
                 <TextField
                   required
                   fullWidth
@@ -78,13 +78,13 @@ export default function Contact() {
                   value={formData.message}
                   onChange={handleChange}
                 />
-              </Grid2>
-              <Grid2 item xs={12}>
+              </Grid>
+              <Grid item xs={12}>
                 <Button type="submit" variant="contained" color="primary" size="large" endIcon={<SendIcon />} fullWidth>
                   Enviar Mensaje
                 </Button>
-              </Grid2>
-            </Grid2>
+              </Grid>
+            </Grid>
           </form>
         </Paper>
 
