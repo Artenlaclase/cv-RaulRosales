@@ -1,4 +1,3 @@
-"use client";
 import { Box, Container, Typography, Button, Stack, Grid, useTheme, useMediaQuery } from "@mui/material"
 import { LinkedInIcon, GithubIcon, MailIcon } from "../components/ui/Icons"
 import Image from "next/image"
