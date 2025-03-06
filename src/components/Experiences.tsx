@@ -37,24 +37,13 @@ export default function Experience() {
               fontWeight: "bold",
               lineHeight: 1.1,
               fontSize: {
-                xs: "1.875rem", // text-3xl
-                sm: "1.875rem", // text-3xl
-                md: "3rem", // text-5xl
+                xs: "1.875rem",
+                sm: "1.875rem",
+                md: "3rem",
               },
             }}
           >
             Experiencia Profesional
-          </Typography>
-          <Typography
-            variant="body1"
-            color="text.secondary"
-            sx={{
-              maxWidth: "85%",
-              fontSize: { sm: "1.125rem" },
-              lineHeight: { sm: 1.75 },
-            }}
-          >
-            Mi trayectoria en desarrollo de software a través de diferentes roles y empresas.
           </Typography>
         </Box>
 
@@ -62,112 +51,93 @@ export default function Experience() {
           <Stack spacing={4}>
             <Card elevation={1}>
               <CardContent sx={{ p: 3 }}>
-                <Box
-                  sx={{
-                    display: "flex",
-                    flexDirection: { xs: "column", md: "row" },
-                    alignItems: { md: "flex-start" },
-                    justifyContent: { md: "space-between" },
-                    gap: 2,
-                  }}
-                >
-                  <Box sx={{ mb: { xs: 2, md: 0 } }}>
-                    <Typography variant="h6" component="h3" sx={{ fontWeight: "bold", mb: 0.5 }}>
-                      Desarrollador Frontend Senior
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      TechCorp Inc.
-                    </Typography>
-                  </Box>
-                  <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
-                    <Chip
-                      icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />}
-                      label="2021 - Presente"
-                      variant="outlined"
-                      size="small"
-                    />
-                    <Chip
-                      icon={<LocationOnIcon sx={{ fontSize: 16 }} />}
-                      label="Madrid, España"
-                      variant="outlined"
-                      size="small"
-                    />
+                <Typography variant="h6" component="h3" sx={{ fontWeight: "bold", mb: 1 }}>
+                  Desarrollo Web y Tecnología Educativa
+                </Typography>
+                <Box sx={{ mt: 2 }}>
+                  <Typography variant="h6" component="h3" sx={{ fontWeight: "bold" }}>
+                    Software Developer
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Digital Wave (Remoto)
+                  </Typography>
+                  <Stack direction={{ xs: "column", sm: "row" }} spacing={2} sx={{ mt: 1 }}>
+                    <Chip icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />} label="Dic. 2024 - Actualidad" variant="outlined" size="small" />
                   </Stack>
+                  <Typography variant="body2" paragraph sx={{ mt: 2 }}>
+                    ● Desarrollo Backend Nestjs ORM Prisma, aportes en Frontend con Nextjs.
+                  </Typography>
+                  <Typography variant="body2" paragraph>
+                    ● Implementación de soluciones tecnológicas para ERP TideLaw.
+                  </Typography>
                 </Box>
 
                 <Box sx={{ mt: 3 }}>
-                  <Typography variant="body2" paragraph>
-                    Lideré el equipo de desarrollo frontend en la construcción de una aplicación web moderna utilizando
-                    React y Next.js. Implementé diseños responsivos, optimicé el rendimiento y garanticé el cumplimiento
-                    de accesibilidad.
+                  <Typography variant="h6" component="h3" sx={{ fontWeight: "bold" }}>
+                    Administrador de Plataformas Educativas y TIC
                   </Typography>
-                  <Box component="ul" sx={{ pl: 4, color: "text.secondary" }}>
-                    <Typography component="li" variant="body2">
-                      Reduje el tiempo de carga de la página en un 40% mediante la división de código y la carga
-                      diferida
-                    </Typography>
-                    <Typography component="li" variant="body2">
-                      Implementé pipelines de CI/CD para pruebas y despliegue automatizados
-                    </Typography>
-                    <Typography component="li" variant="body2">
-                      Mentoría a desarrolladores junior y realización de revisiones de código
-                    </Typography>
-                  </Box>
+                  <Typography variant="body2" paragraph>
+                    ● Implementación y gestión de LMS Moodle en diversas instituciones.
+                  </Typography>
+                  <Typography variant="body2" paragraph>
+                    ● Coordinación de laboratorios de computación en colegios.
+                  </Typography>
+                  <Typography variant="body2" paragraph>
+                    ● Capacitación docente en herramientas digitales y metodologías activas con TIC.
+                  </Typography>
                 </Box>
               </CardContent>
             </Card>
 
             <Card elevation={1}>
               <CardContent sx={{ p: 3 }}>
-                <Box
-                  sx={{
-                    display: "flex",
-                    flexDirection: { xs: "column", md: "row" },
-                    alignItems: { md: "flex-start" },
-                    justifyContent: { md: "space-between" },
-                    gap: 2,
-                  }}
-                >
-                  <Box sx={{ mb: { xs: 2, md: 0 } }}>
-                    <Typography variant="h6" component="h3" sx={{ fontWeight: "bold", mb: 0.5 }}>
-                      Desarrollador Full Stack
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      WebSolutions Ltd.
-                    </Typography>
-                  </Box>
-                  <Stack direction={{ xs: "column", sm: "row" }} spacing={2}>
-                    <Chip
-                      icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />}
-                      label="2018 - 2021"
-                      variant="outlined"
-                      size="small"
-                    />
-                    <Chip
-                      icon={<LocationOnIcon sx={{ fontSize: 16 }} />}
-                      label="Barcelona, España"
-                      variant="outlined"
-                      size="small"
-                    />
+                <Typography variant="h6" component="h3" sx={{ fontWeight: "bold", mb: 1 }}>
+                  Docencia y Coordinación Educativa
+                </Typography>
+                
+                <Box sx={{ mt: 2 }}>
+                  <Typography variant="h6" component="h3" sx={{ fontWeight: "bold" }}>
+                    Profesor de Artes Visuales
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Liceo Municipal Pablo Neruda, DAEM Navidad
+                  </Typography>
+                  <Stack direction={{ xs: "column", sm: "row" }} spacing={2} sx={{ mt: 1 }}>
+                    <Chip icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />} label="2024 - Actualidad" variant="outlined" size="small" />
                   </Stack>
                 </Box>
 
                 <Box sx={{ mt: 3 }}>
-                  <Typography variant="body2" paragraph>
-                    Desarrollé y mantuve múltiples proyectos de clientes utilizando React, Node.js y MongoDB. Colaboré
-                    con diseñadores y gerentes de producto para entregar aplicaciones web de alta calidad.
+                  <Typography variant="h6" component="h3" sx={{ fontWeight: "bold" }}>
+                    Profesor de Artes Visuales y Tecnología
                   </Typography>
-                  <Box component="ul" sx={{ pl: 4, color: "text.secondary" }}>
-                    <Typography component="li" variant="body2">
-                      Construí APIs RESTful e integré servicios de terceros
-                    </Typography>
-                    <Typography component="li" variant="body2">
-                      Implementé sistemas de autenticación y autorización
-                    </Typography>
-                    <Typography component="li" variant="body2">
-                      Optimicé consultas de base de datos para mejorar el rendimiento
-                    </Typography>
-                  </Box>
+                  <Typography variant="body2" color="text.secondary">
+                    Colegio María Griselda Valle, El Bosque
+                  </Typography>
+                  <Stack direction={{ xs: "column", sm: "row" }} spacing={2} sx={{ mt: 1 }}>
+                    <Chip icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />} label="2020 - 2024" variant="outlined" size="small" />
+                  </Stack>
+                </Box>
+
+                <Box sx={{ mt: 3 }}>
+                  <Typography variant="h6" component="h3" sx={{ fontWeight: "bold" }}>
+                    Coordinador de Enlaces (MINEDUC) y Profesor de Tecnología
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Colegio Nova Terra, La Florida
+                  </Typography>
+                  <Stack direction={{ xs: "column", sm: "row" }} spacing={2} sx={{ mt: 1 }}>
+                    <Chip icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />} label="2014 - 2016" variant="outlined" size="small" />
+                  </Stack>
+                </Box>
+
+                <Box sx={{ mt: 3 }}>
+                  <Typography variant="h6" component="h3" sx={{ fontWeight: "bold" }}>
+                    Profesor de Educación Tecnológica y Artes Visuales
+                  </Typography>
+                  <Typography variant="body2" paragraph>
+                    Diferentes instituciones educativas entre 2005 y 2019.
+                  </Typography>
                 </Box>
               </CardContent>
             </Card>
@@ -177,4 +147,3 @@ export default function Experience() {
     </Box>
   )
 }
-

@@ -56,7 +56,7 @@ export default function Hero() {
                   mb: 2,
                 }}
               >
-                Especializado en crear aplicaciones web modernas con React, Next.js y Node.js. Enfocado en soluciones
+                Especializado en crear aplicaciones web modernas con React, Next.js y Nestjs, Node.js. Enfocado en soluciones
                 elegantes y eficientes para problemas complejos.
               </Typography>
 
