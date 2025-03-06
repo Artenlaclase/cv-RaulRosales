@@ -1,10 +1,67 @@
-import { Box, Container, Typography, Card, CardContent, Chip, Stack, useTheme, useMediaQuery } from "@mui/material"
-import CalendarTodayIcon from "@mui/icons-material/CalendarToday"
+import { Box, Container, Typography, Card, CardContent, Chip, Stack, Avatar, useTheme, useMediaQuery } from "@mui/material";
+import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
 
 export default function Education() {
-  const theme = useTheme()
-  const isMobile = useMediaQuery(theme.breakpoints.down("md"))
-  const isTablet = useMediaQuery(theme.breakpoints.down("lg"))
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+  const isTablet = useMediaQuery(theme.breakpoints.down("lg"));
+
+  const educationData = [
+    {
+      title: "Magíster en Innovación Curricular y Evaluación Educativa",
+      institution: "Universidad del Desarrollo",
+      year: "2013",
+      logo: "/assets/img/udd.png",
+    },
+    {
+      title: "Licenciatura en Educación y Pedagogía en Artes Plásticas",
+      institution: "Universidad Metropolitana de Ciencias de la Educación (UMCE)",
+      year: "2005",
+      logo: "/assets/img/umce.png",
+    },
+    {
+      title: "Postítulo: Profesor Especialista en Educación Tecnológica",
+      institution: "Universidad Viña del Mar (UVM)",
+      year: "2009",
+      logo: "/assets/img/uvm.png",
+    },
+    {
+      title: "Bootcamp en Desarrollo Web Full Stack (280 horas)",
+      institution: "Universidad del Desarrollo",
+      year: "2024",
+      logo: "/assets/img/udd.png",
+    },
+    {
+      title: "Curso Python y la Web (75 horas)",
+      institution: "Pontificia Universidad Católica de Chile",
+      year: "2024",
+      logo: "/assets/img/uc.png",
+    },
+    {
+      title: "Programa Formativo Docentes Para el Siglo XXI",
+      institution: "Kodea",
+      year: "2024",
+      logo: "/assets/img/kodea.png",
+    },
+    {
+      title: "Curso Metodología con uso de TICs",
+      institution: "Universidad de la Frontera",
+      year: "2022",
+      logo: "/assets/img/ufro.png",
+    },
+    {
+      title: "Curso Introducción al Diseño Web",
+      institution: "Desafío Latam",
+      year: "2022",
+      logo: "/assets/img/desafio_latam.png",
+    },
+    {
+      title: "Curso Neuroeducación",
+      institution: "ACHNAP",
+      year: "2019",
+      logo: "/assets/img/achnap.png",
+    },
+  ];
 
   return (
     <Box
@@ -36,13 +93,13 @@ export default function Education() {
               fontWeight: "bold",
               lineHeight: 1.1,
               fontSize: {
-                xs: "1.875rem", // text-3xl
-                sm: "1.875rem", // text-3xl
-                md: "3rem", // text-5xl
+                xs: "1.875rem",
+                sm: "1.875rem",
+                md: "3rem",
               },
             }}
           >
-            Educación
+            Formación Académica
           </Typography>
           <Typography
             variant="body1"
@@ -59,81 +116,42 @@ export default function Education() {
 
         <Box sx={{ mx: "auto", maxWidth: "5xl", py: 6, mt: 6 }}>
           <Stack spacing={4}>
-            <Card elevation={1}>
-              <CardContent sx={{ p: 3 }}>
-                <Box
-                  sx={{
-                    display: "flex",
-                    flexDirection: { xs: "column", md: "row" },
-                    alignItems: { md: "flex-start" },
-                    justifyContent: { md: "space-between" },
-                    gap: 2,
-                  }}
-                >
-                  <Box sx={{ mb: { xs: 2, md: 0 } }}>
-                    <Typography variant="h6" component="h3" sx={{ fontWeight: "bold", mb: 0.5 }}>
-                      Licenciatura en Ciencias de la Computación
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      Universidad Complutense de Madrid
-                    </Typography>
+            {educationData.map((item, index) => (
+              <Card key={index} elevation={1}>
+                <CardContent sx={{ p: 3 }}>
+                  <Box
+                    sx={{
+                      display: "flex",
+                      flexDirection: { xs: "column", md: "row" },
+                      alignItems: "center",
+                      justifyContent: "space-between",
+                      gap: 2,
+                    }}
+                  >
+                    <Box sx={{ display: "flex", alignItems: "center", gap: 2 }}>
+                      <Avatar src={item.logo} alt={item.institution} sx={{ width: 40, height: 40 }} />
+                      <Box>
+                        <Typography variant="h6" component="h3" sx={{ fontWeight: "bold", mb: 0.5 }}>
+                          {item.title}
+                        </Typography>
+                        <Typography variant="body2" color="text.secondary">
+                          {item.institution}
+                        </Typography>
+                      </Box>
+                    </Box>
+                    <Chip
+                      icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />}
+                      label={item.year}
+                      variant="outlined"
+                      size="small"
+                    />
                   </Box>
-                  <Chip
-                    icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />}
-                    label="2014 - 2018"
-                    variant="outlined"
-                    size="small"
-                  />
-                </Box>
-
-                <Box sx={{ mt: 3 }}>
-                  <Typography variant="body2">
-                    Graduado con honores. Especializado en ingeniería de software y desarrollo web. Completé una tesis
-                    sobre la optimización de aplicaciones React para mejorar el rendimiento.
-                  </Typography>
-                </Box>
-              </CardContent>
-            </Card>
-
-            <Card elevation={1}>
-              <CardContent sx={{ p: 3 }}>
-                <Box
-                  sx={{
-                    display: "flex",
-                    flexDirection: { xs: "column", md: "row" },
-                    alignItems: { md: "flex-start" },
-                    justifyContent: { md: "space-between" },
-                    gap: 2,
-                  }}
-                >
-                  <Box sx={{ mb: { xs: 2, md: 0 } }}>
-                    <Typography variant="h6" component="h3" sx={{ fontWeight: "bold", mb: 0.5 }}>
-                      AWS Certified Developer
-                    </Typography>
-                    <Typography variant="body2" color="text.secondary">
-                      Amazon Web Services
-                    </Typography>
-                  </Box>
-                  <Chip
-                    icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />}
-                    label="2020"
-                    variant="outlined"
-                    size="small"
-                  />
-                </Box>
-
-                <Box sx={{ mt: 3 }}>
-                  <Typography variant="body2">
-                    Certificación que demuestra competencia en el desarrollo, despliegue y depuración de aplicaciones
-                    basadas en la nube utilizando AWS.
-                  </Typography>
-                </Box>
-              </CardContent>
-            </Card>
+                </CardContent>
+              </Card>
+            ))}
           </Stack>
         </Box>
       </Container>
     </Box>
-  )
+  );
 }
-
