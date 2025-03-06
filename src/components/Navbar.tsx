@@ -113,16 +113,22 @@ export default function Navbar() {
             )}
 
             {!isMobile && (
-              <Box>
-                <IconButton color="inherit" aria-label="GitHub">
-                  <GithubIcon />
-                </IconButton>
-                <IconButton color="inherit" aria-label="LinkedIn">
-                  <LinkedInIcon />
-                </IconButton>
-                <IconButton color="inherit" aria-label="Email">
-                  <MailIcon />
-                </IconButton>
+              <Box sx={{ display: "flex", gap: 2 }}>
+                <Link href="https://github.com/artenlaclase" passHref target="_blank" rel="noopener noreferrer">
+                  <IconButton size="small" color="inherit" aria-label="GitHub">
+                    <GithubIcon />
+                  </IconButton>
+                </Link>
+                <Link href="https://www.linkedin.com/in/raulrosalesrebolledo/" passHref target="_blank" rel="noopener noreferrer">
+                  <IconButton size="small" color="inherit" aria-label="LinkedIn">
+                    <LinkedInIcon />
+                  </IconButton>
+                </Link>
+                <Link href="mailto:tuemail@example.com" passHref>
+                  <IconButton size="small" color="inherit" aria-label="Email">
+                    <MailIcon />
+                  </IconButton>
+                </Link>
               </Box>
             )}
           </Box>
@@ -170,16 +176,22 @@ export default function Navbar() {
         <Divider />
 
         <Box sx={{ display: "flex", flexDirection: "column", p: 2 }}>
-          <Box sx={{ display: "flex", justifyContent: "center", mb: 2 }}>
-            <IconButton color="inherit" aria-label="GitHub">
-              <GithubIcon />
-            </IconButton>
-            <IconButton color="inherit" aria-label="LinkedIn">
-              <LinkedInIcon />
-            </IconButton>
-            <IconButton color="inherit" aria-label="Email">
-              <MailIcon />
-            </IconButton>
+          <Box sx={{ display: "flex", gap: 2 }}>
+            <Link href="https://github.com/artenlaclase" passHref target="_blank" rel="noopener noreferrer">
+              <IconButton size="small" color="inherit" aria-label="GitHub">
+                <GithubIcon />
+              </IconButton>
+            </Link>
+            <Link href="https://www.linkedin.com/in/raulrosalesrebolledo/" passHref target="_blank" rel="noopener noreferrer">
+              <IconButton size="small" color="inherit" aria-label="LinkedIn">
+                <LinkedInIcon />
+              </IconButton>
+            </Link>
+            <Link href="mailto:tuemail@example.com" passHref>
+              <IconButton size="small" color="inherit" aria-label="Email">
+                <MailIcon />
+              </IconButton>
+            </Link>
           </Box>
 
           <Button variant="outlined" startIcon={<DescriptionIcon />} fullWidth>
