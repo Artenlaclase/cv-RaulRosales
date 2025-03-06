@@ -47,7 +47,7 @@ export default function Footer() {
           <LinkedInIcon />
         </IconButton>
       </Link>
-      <Link href="mailto:tuemail@example.com" passHref>
+      <Link href="mailto:raulrosales.dev@gmail.com" passHref>
         <IconButton size="small" color="inherit" aria-label="Email">
           <MailIcon />
         </IconButton>
