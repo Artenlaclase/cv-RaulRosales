@@ -59,23 +59,16 @@ export default function About() {
 
         <Box sx={{ mx: "auto", maxWidth: "48rem", py: 6 }}>
           <Typography variant="body1" paragraph sx={{ mb: 3, fontSize: "1.125rem" }}>
-            Soy un desarrollador Full Stack con más de 5 años de experiencia en el desarrollo de aplicaciones web
-            modernas. Mi pasión por la tecnología comenzó desde temprana edad, y he dedicado mi carrera profesional a
-            perfeccionar mis habilidades en el desarrollo frontend y backend.
+          Soy desarrollador Full Stack con más de 3 años de experiencia en el desarrollo de aplicaciones web modernas, iniciando con WordPress y Joomla. Mi pasión por la tecnología comenzó desde temprana edad, y he dedicado mi carrera profesional a perfeccionar mis habilidades en el desarrollo frontend y backend.
           </Typography>
           <Typography variant="body1" paragraph sx={{ mb: 3, fontSize: "1.125rem" }}>
-            Me especializo en la creación de interfaces de usuario intuitivas y atractivas utilizando React y Next.js,
-            así como en el desarrollo de APIs robustas con Node.js. Siempre estoy buscando aprender nuevas tecnologías y
-            mejorar mis habilidades para ofrecer soluciones de alta calidad.
+          Además, soy Magíster en Educación y Profesor de Artes Visuales, titulado en la Universidad Metropolitana de Ciencias de la Educación (UMCE), con un postítulo como Profesor Especialista en Educación Tecnológica. Cuento con 20 años de experiencia en centros educativos, donde he diseñado e implementado asignaturas como Artes Visuales, Tecnología, y talleres de Audiovisual, Proyectos Tecnológicos y Programación.
           </Typography>
           <Typography variant="body1" paragraph sx={{ mb: 3, fontSize: "1.125rem" }}>
-            Además del desarrollo web, me apasiona compartir conocimientos a través de mi blog y participar en la
-            comunidad de desarrolladores. Creo firmemente en el código limpio, las buenas prácticas y la importancia de
-            la accesibilidad en la web.
+          Tengo experiencia como administrador y programador de sitios web para instituciones educativas, optimizando su funcionalidad y accesibilidad. Durante tres años, fui responsable del proyecto Enlaces del Ministerio de Educación en el colegio donde realizaba clases, configurando y administrando laboratorios de computación e integrando tecnología educativa para mejorar la enseñanza y el aprendizaje.
           </Typography>
           <Typography variant="body1" sx={{ fontSize: "1.125rem" }}>
-            Cuando no estoy programando, disfruto de la fotografía, el senderismo y explorar nuevos lugares. Estas
-            actividades me ayudan a mantener un equilibrio y a encontrar inspiración para mis proyectos.
+          Soy un profesional con amplia experiencia en educación y tecnología educativa, especializado en la integración de plataformas de aprendizaje virtual (LMS) y en el diseño instruccional para entornos digitales. Mis habilidades incluyen la capacitación docente y el liderazgo en la implementación de proyectos tecnológicos, gestionando la modernización de espacios educativos mediante TIC y metodologías innovadoras para la enseñanza y el aprendizaje.
           </Typography>
         </Box>
       </Container>
