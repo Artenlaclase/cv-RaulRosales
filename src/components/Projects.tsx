@@ -19,28 +19,28 @@ import {
       {
         title: "E-commerce Platform",
         description:
-          "Una plataforma de comercio electrónico completa con carrito de compras, pagos y gestión de pedidos.",
+          "Este proyecto consiste en el desarrollo de una aplicación Fullstack para un negocio de comercio electrónico, que incluye un catálogo de productos, un carrito de compras, y una pasarela de pago segura. También se implementan funciones de autenticación y autorización de usuarios mediante JSON Web Tokens (JWT).",
         image: "/assets/img/e-commerce.png?height=200&width=400",
-        tags: ["React", "Node.js", "MongoDB", "Stripe"],
+        tags: ["React", "Node.js", "MongoDB", "Material UI"],
         github: "https://github.com/Artenlaclase/Proyecto-7-Aplicaci-nFullStackCE",
         demo: "https://tiendatiktak.netlify.app/",
       },
       {
-        title: "Task Management App",
+        title: "Proyecto ONG Centro Ecuménico Diego de Medellín",
         description:
-          "Aplicación de gestión de tareas con funcionalidades de arrastrar y soltar, etiquetas y colaboración en tiempo real.",
+          "Sitio web para la ong chilena Centro Ecuménico Diego de Medellín, con secciones para proyectos, noticias y contacto.",
         image: "/assets/img/cdemchile.png?height=200&width=400",
-        tags: ["Next.js", "TypeScript", "Firebase", "Material UI"],
-        github: "https://github.com/username/taskapp",
-        demo: "https://taskapp-demo.com",
+        tags: ["HTML", "JavaScript", "CSS", "Wordpress"],
+        github: "https://github.com/artenlaclase",
+        demo: "https://cedmchile.org/",
       },
       {
-        title: "Portfolio Website",
-        description: "Sitio web de portafolio personal con secciones para proyectos, habilidades y contacto.",
+        title: "Proyecto Oceánica Web",
+        description: "Sitio web de organización que desarrolla aplicaciones y sitios web.",
         image: "/assets/img/Oceanicaweb.png?height=200&width=400",
-        tags: ["React", "Material UI", "Framer Motion"],
-        github: "https://github.com/username/portfolio",
-        demo: "https://portfolio-demo.com",
+        tags: ["Nextjs", "Tailwind CSS", "Framer Motion"],
+        github: "https://github.com/artenlaclase",
+        demo: "https://oceanicaweb.cl/",
       },
     ]
   
