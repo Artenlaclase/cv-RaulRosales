@@ -1,5 +1,6 @@
 "use client";
 import { Box, Container, Typography, IconButton, useTheme, useMediaQuery } from "@mui/material"
+import Link from 'next/link'
 import { GithubIcon, LinkedInIcon, MailIcon } from "../components/ui/Icons"
 
 export default function Footer() {
@@ -36,16 +37,22 @@ export default function Footer() {
           </Typography>
 
           <Box sx={{ display: "flex", gap: 2 }}>
-            <IconButton size="small" color="inherit" aria-label="GitHub">
-              <GithubIcon />
-            </IconButton>
-            <IconButton size="small" color="inherit" aria-label="LinkedIn">
-              <LinkedInIcon />
-            </IconButton>
-            <IconButton size="small" color="inherit" aria-label="Email">
-              <MailIcon />
-            </IconButton>
-          </Box>
+      <Link href="https://github.com/artenlaclase" passHref target="_blank" rel="noopener noreferrer">
+        <IconButton size="small" color="inherit" aria-label="GitHub">
+          <GithubIcon />
+        </IconButton>
+      </Link>
+      <Link href="https://www.linkedin.com/in/raulrosalesrebolledo/" passHref target="_blank" rel="noopener noreferrer">
+        <IconButton size="small" color="inherit" aria-label="LinkedIn">
+          <LinkedInIcon />
+        </IconButton>
+      </Link>
+      <Link href="mailto:tuemail@example.com" passHref>
+        <IconButton size="small" color="inherit" aria-label="Email">
+          <MailIcon />
+        </IconButton>
+      </Link>
+    </Box>
         </Box>
       </Container>
     </Box>
