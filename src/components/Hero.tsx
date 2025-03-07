@@ -1,5 +1,5 @@
 "use client";
-import { Box, Container, Typography, Button, Stack, Grid, useTheme, useMediaQuery } from "@mui/material"
+import { Box, Container, Typography, Button, Stack, Grid, useTheme } from "@mui/material"
 import { LinkedInIcon, GithubIcon, MailIcon } from "../components/ui/Icons"
 import Image from "next/image"
 
