@@ -67,16 +67,16 @@ export default function Navbar() {
       setEmailError("Ingrese un correo válido")
       return
     }
-
-    setIsDialogOpen(false)
+    // Método más confiable para descargas
     const link = document.createElement('a');
-    link.href = '/assets/cv_raul_rosales2025.pdf';
-    link.download = 'CV_Raul_Rosales.pdf'; // Nombre que verá el usuario
+    link.href = '/cv_raul_rosales2025.pdf'; // Ruta del archivo
+    link.download = 'CV_Raul_Rosales.pdf'; // Nombre personalizado
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
-
-  }
+  
+    setIsDialogOpen(false);
+  };
 
   return (
     <>
