@@ -14,16 +14,19 @@ import {
   SiPython,
   SiDjango,
   SiNestjs,
-  SiWordpress
+  SiWordpress,
+  SiTailwindcss
 } from "react-icons/si"
 
 export default function Skills() {
   const skills = [
+    { name: "NestJS", level: 90, icon: <SiNestjs size={24} color="#E0234E" /> },
     { name: "React", level: 90, icon: <SiReact size={24} color="#61DAFB" /> },
     { name: "Next.js", level: 85, icon: <SiNextdotjs size={24} color="#000000" /> },
     { name: "JavaScript", level: 90, icon: <SiJavascript size={24} color="#F7DF1E" /> },
     { name: "TypeScript", level: 80, icon: <SiTypescript size={24} color="#3178C6" /> },
     { name: "Node.js", level: 90, icon: <SiNodedotjs size={24} color="#339933" /> },
+    { name: "Tailwind CSS", level: 85, icon: <SiTailwindcss size={24} color="#38BDF8" /> },
     { 
       name: "HTML/CSS", 
       level: 95, 
@@ -35,13 +38,15 @@ export default function Skills() {
       )
     },
     { name: "Material UI", level: 80, icon: <SiMaterialdesign size={24} color="#0081CB" /> },
+    { name: "WordPress", level: 95, icon: <SiWordpress size={24} color="#21759B" /> },
     { name: "Git", level: 85, icon: <SiGit size={24} color="#F05032" /> },
+    { name: "Django", level: 80, icon: <SiDjango size={24} color="#092E20" /> },
+    { name: "Python", level: 65, icon: <SiPython size={24} color="#3776AB" /> },
     { name: "PHP", level: 80, icon: <SiPhp size={24} color="#777BB4" /> },
     { name: "Laravel Artisan", level: 75, icon: <SiLaravel size={24} color="#FF2D20" /> },
-    { name: "Python", level: 75, icon: <SiPython size={24} color="#3776AB" /> },
-    { name: "Django", level: 80, icon: <SiDjango size={24} color="#092E20" /> },
-    { name: "NestJS", level: 90, icon: <SiNestjs size={24} color="#E0234E" /> },
-    { name: "WordPress", level: 95, icon: <SiWordpress size={24} color="#21759B" /> }
+    
+    
+   
   ]
 
   return (
