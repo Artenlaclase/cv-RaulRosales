@@ -52,8 +52,6 @@ export default function Navbar() {
 
   const handleMenuToggle = () => setIsMenuOpen(!isMenuOpen)
 
-
-
   const handleDownloadClick = () => setIsDialogOpen(true)
 
   const handleEmailChange = (event: React.ChangeEvent<HTMLInputElement>) => {
