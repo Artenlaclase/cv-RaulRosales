@@ -61,21 +61,33 @@ export default function Navbar() {
     setEmailError("")
   }
 
-  const handleDownloadConfirm = () => {
-    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/
+  const handleDownloadConfirm = async () => {
+    const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
     if (!emailPattern.test(email)) {
-      setEmailError("Ingrese un correo válido")
-      return
+      setEmailError("Ingrese un correo válido");
+      return;
     }
-    // Método más confiable para descargas
-    const link = document.createElement('a');
-    link.href = '/cv_raul_rosales2025.pdf'; // Ruta del archivo
-    link.download = 'CV_Raul_Rosales.pdf'; // Nombre personalizado
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  
-    setIsDialogOpen(false);
+
+    try {
+      await fetch("/api/send-email", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({ email }),
+      });
+
+      // Descargar el CV
+      const link = document.createElement("a");
+      link.href = "/cv_raul_rosales2025.pdf";
+      link.download = "CV_Raul_Rosales.pdf";
+      document.body.appendChild(link);
+      link.click();
+      document.body.removeChild(link);
+
+      setIsDialogOpen(false);
+    } catch (error) {
+      console.error("Error al enviar el correo", error);
+      setEmailError("Error al registrar el correo. Intente de nuevo.");
+    }
   };
 
   return (
