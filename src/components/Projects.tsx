@@ -18,25 +18,26 @@ import {
     const projects = [
       {
         title: "E-commerce Platform",
-        description:
-          "Este proyecto consiste en el desarrollo de una aplicación Fullstack para un negocio de comercio electrónico, que incluye un catálogo de productos, un carrito de compras, y una pasarela de pago segura. También se implementan funciones de autenticación y autorización de usuarios mediante JSON Web Tokens (JWT).",
-        image: "/assets/img/e-commerce.png?height=200&width=400",
-        tags: ["React", "Node.js", "MongoDB", "Material UI"],
-        github: "https://github.com/Artenlaclase/Proyecto-7-Aplicaci-nFullStackCE",
-        demo: "https://tiendatiktak.netlify.app/",
+      description:
+        "Desarrollo de una plataforma de comercio electrónico Fullstack, diseñada para gestionar productos, procesar pagos y ofrecer una experiencia de usuario fluida. El proyecto incluye un catálogo de productos, carrito de compras, y un sistema de autenticación y autorización de usuarios mediante JWT. Esta aplicación fue implementada utilizando tecnologías como React, Node.js y MongoDB, con una interfaz moderna desarrollada con Material UI.",
+      image: "/assets/img/e-commerce.png?height=200&width=400",
+      tags: ["React", "Node.js", "MongoDB", "Material UI"],
+      github: "https://github.com/Artenlaclase/Proyecto-7-Aplicaci-nFullStackCE",
+      demo: "https://tiendatiktak.netlify.app/",
       },
       {
         title: "Proyecto ONG Centro Ecuménico Diego de Medellín",
-        description:
-          "Sitio web para la ong chilena Centro Ecuménico Diego de Medellín, con secciones para proyectos, noticias y contacto.",
-        image: "/assets/img/cdemchile.png?height=200&width=400",
-        tags: ["HTML", "JavaScript", "CSS", "Wordpress"],
-        github: "https://github.com/artenlaclase",
-        demo: "https://cedmchile.org/",
+      description:
+        "Reestructuración y actualización del sitio web para la ONG Centro Ecuménico Diego de Medellín, con el objetivo de mejorar la accesibilidad y optimizar la experiencia del usuario. El proyecto incluye secciones dedicadas a los proyectos sociales de la ONG, noticias actualizadas, y una página de contacto, todo ello implementado sobre WordPress con una nueva plantilla y diseño adaptado a las necesidades de la organización.",
+      image: "/assets/img/cdemchile.png?height=200&width=400",
+      tags: ["HTML", "JavaScript", "CSS", "WordPress"],
+      github: "https://github.com/artenlaclase",
+      demo: "https://cedmchile.org/",
       },
       {
         title: "Proyecto Oceánica Web",
-        description: "Sitio web de organización que desarrolla aplicaciones y sitios web.",
+        description:
+          "Desarrollo del sitio web para Oceánica, una organización dedicada al diseño y desarrollo de aplicaciones y sitios web. El proyecto incluye una interfaz moderna y fluida, implementada con Next.js y Tailwind CSS, y cuenta con animaciones suaves gracias a Framer Motion. Este sitio refleja el enfoque innovador de la organización en el desarrollo de soluciones tecnológicas y su capacidad de adaptación a las necesidades del cliente.",
         image: "/assets/img/Oceanicaweb.png?height=200&width=400",
         tags: ["Nextjs", "Tailwind CSS", "Framer Motion"],
         github: "https://github.com/artenlaclase",
