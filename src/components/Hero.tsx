@@ -5,7 +5,7 @@ import Image from "next/image"
 
 export default function Hero() {
   const theme = useTheme()
-  //const isMobile = useMediaQuery(theme.breakpoints.down("md"))
+  
 
   return (
     <Box

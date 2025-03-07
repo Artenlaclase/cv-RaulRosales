@@ -52,7 +52,7 @@ export default function Navbar() {
 
   const handleMenuToggle = () => setIsMenuOpen(!isMenuOpen)
 
-  //const handleNavLinkClick = () => isMobile && setIsMenuOpen(false)
+
 
   const handleDownloadClick = () => setIsDialogOpen(true)
 
