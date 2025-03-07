@@ -1,11 +1,11 @@
-import { Box, Container, Typography, Card, CardContent, Chip, Stack, useTheme, useMediaQuery } from "@mui/material"
-import CalendarTodayIcon from "@mui/icons-material/CalendarToday"
-import LocationOnIcon from "@mui/icons-material/LocationOn"
+import { Box, Container, Typography, Card, CardContent, Chip, Stack, useTheme, useMediaQuery } from "@mui/material";
+import CalendarTodayIcon from "@mui/icons-material/CalendarToday";
+import LocationOnIcon from "@mui/icons-material/LocationOn";
 
 export default function Experience() {
-  const theme = useTheme()
-  const isMobile = useMediaQuery(theme.breakpoints.down("md"))
-  const isTablet = useMediaQuery(theme.breakpoints.down("lg"))
+  const theme = useTheme();
+  const isMobile = useMediaQuery(theme.breakpoints.down("md"));
+  const isTablet = useMediaQuery(theme.breakpoints.down("lg"));
 
   return (
     <Box
@@ -63,12 +63,34 @@ export default function Experience() {
                   </Typography>
                   <Stack direction={{ xs: "column", sm: "row" }} spacing={2} sx={{ mt: 1 }}>
                     <Chip icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />} label="Dic. 2024 - Actualidad" variant="outlined" size="small" />
+                    <Chip icon={<LocationOnIcon sx={{ fontSize: 16 }} />} label="Santiago, Chile" variant="outlined" size="small" />
                   </Stack>
                   <Typography variant="body2" paragraph sx={{ mt: 2 }}>
-                    ● Desarrollo Backend Nestjs ORM Prisma, aportes en Frontend con Nextjs.
+                    ● Desarrollo Backend con NestJS y ORM Prisma, con contribuciones en Frontend utilizando Next.js.
                   </Typography>
                   <Typography variant="body2" paragraph>
-                    ● Implementación de soluciones tecnológicas para ERP TideLaw.
+                    ● Implementación de soluciones tecnológicas para el ERP TideLaw.
+                  </Typography>
+                </Box>
+                <Box sx={{ mt: 2 }}>
+                  <Typography variant="h6" component="h3" sx={{ fontWeight: "bold" }}>
+                    Software Developer
+                  </Typography>
+                  <Typography variant="body2" color="text.secondary">
+                    Oceánica Web (Remoto)
+                  </Typography>
+                  <Stack direction={{ xs: "column", sm: "row" }} spacing={2} sx={{ mt: 1 }}>
+                    <Chip icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />} label="Dic. 2022 - Actualidad" variant="outlined" size="small" />
+                    <Chip icon={<LocationOnIcon sx={{ fontSize: 16 }} />} label="Navidad, Chile" variant="outlined" size="small" />
+                  </Stack>
+                  <Typography variant="body2" paragraph sx={{ mt: 2 }}>
+                    ● Desarrollo Full Stack de aplicaciones y sitios web utilizando WordPress y Frameworks de JavaScript.
+                  </Typography>
+                  <Typography variant="body2" paragraph>
+                    ● Implementación de capacitaciones en soluciones tecnológicas.
+                  </Typography>
+                  <Typography variant="body2" paragraph>
+                    ● Administración y actualización de sitios web.
                   </Typography>
                 </Box>
 
@@ -77,7 +99,7 @@ export default function Experience() {
                     Administrador de Plataformas Educativas y TIC
                   </Typography>
                   <Typography variant="body2" paragraph>
-                    ● Implementación y gestión de LMS Moodle en diversas instituciones.
+                    ● Implementación y gestión de LMS Moodle en diversas instituciones educativas.
                   </Typography>
                   <Typography variant="body2" paragraph>
                     ● Coordinación de laboratorios de computación en colegios.
@@ -94,7 +116,7 @@ export default function Experience() {
                 <Typography variant="h6" component="h3" sx={{ fontWeight: "bold", mb: 1 }}>
                   Docencia y Coordinación Educativa
                 </Typography>
-                
+
                 <Box sx={{ mt: 2 }}>
                   <Typography variant="h6" component="h3" sx={{ fontWeight: "bold" }}>
                     Profesor de Artes Visuales
@@ -104,6 +126,7 @@ export default function Experience() {
                   </Typography>
                   <Stack direction={{ xs: "column", sm: "row" }} spacing={2} sx={{ mt: 1 }}>
                     <Chip icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />} label="2024 - Actualidad" variant="outlined" size="small" />
+                    <Chip icon={<LocationOnIcon sx={{ fontSize: 16 }} />} label="Navidad, Chile" variant="outlined" size="small" />
                   </Stack>
                 </Box>
 
@@ -116,6 +139,7 @@ export default function Experience() {
                   </Typography>
                   <Stack direction={{ xs: "column", sm: "row" }} spacing={2} sx={{ mt: 1 }}>
                     <Chip icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />} label="2020 - 2024" variant="outlined" size="small" />
+                    <Chip icon={<LocationOnIcon sx={{ fontSize: 16 }} />} label="El Bosque, Chile" variant="outlined" size="small" />
                   </Stack>
                 </Box>
 
@@ -128,6 +152,7 @@ export default function Experience() {
                   </Typography>
                   <Stack direction={{ xs: "column", sm: "row" }} spacing={2} sx={{ mt: 1 }}>
                     <Chip icon={<CalendarTodayIcon sx={{ fontSize: 16 }} />} label="2014 - 2016" variant="outlined" size="small" />
+                    <Chip icon={<LocationOnIcon sx={{ fontSize: 16 }} />} label="La Florida, Chile" variant="outlined" size="small" />
                   </Stack>
                 </Box>
 
@@ -145,5 +170,5 @@ export default function Experience() {
         </Box>
       </Container>
     </Box>
-  )
+  );
 }
