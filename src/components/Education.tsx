@@ -8,24 +8,6 @@ export default function Education() {
 
   const educationData = [
     {
-      title: "Magíster en Innovación Curricular y Evaluación Educativa",
-      institution: "Universidad del Desarrollo",
-      year: "2013",
-      logo: "/assets/img/udd.png",
-    },
-    {
-      title: "Licenciatura en Educación y Pedagogía en Artes Plásticas",
-      institution: "Universidad Metropolitana de Ciencias de la Educación (UMCE)",
-      year: "2005",
-      logo: "/assets/img/umce.png",
-    },
-    {
-      title: "Postítulo: Profesor Especialista en Educación Tecnológica",
-      institution: "Universidad Viña del Mar (UVM)",
-      year: "2009",
-      logo: "/assets/img/uvm.png",
-    },
-    {
       title: "Bootcamp en Desarrollo Web Full Stack (280 horas)",
       institution: "Universidad del Desarrollo",
       year: "2024",
@@ -54,6 +36,24 @@ export default function Education() {
       institution: "Desafío Latam",
       year: "2022",
       logo: "/assets/img/desafio_latam.png",
+    },
+    {
+      title: "Magíster en Innovación Curricular y Evaluación Educativa",
+      institution: "Universidad del Desarrollo",
+      year: "2013",
+      logo: "/assets/img/udd.png",
+    },
+    {
+      title: "Licenciatura en Educación y Pedagogía en Artes Plásticas",
+      institution: "Universidad Metropolitana de Ciencias de la Educación (UMCE)",
+      year: "2005",
+      logo: "/assets/img/umce.png",
+    },
+    {
+      title: "Postítulo: Profesor Especialista en Educación Tecnológica",
+      institution: "Universidad Viña del Mar (UVM)",
+      year: "2009",
+      logo: "/assets/img/uvm.png",
     },
     {
       title: "Curso Neuroeducación",
