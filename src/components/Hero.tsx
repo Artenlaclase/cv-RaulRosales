@@ -11,15 +11,18 @@ export default function Hero() {
     <Box
       component="section"
       sx={{
-        py: { xs: 8, md: 12 },
+        //py: { xs: 8, md: 12 },
+        minHeight: "100vh", // Ocupa toda la altura de la ventana
+        display: "flex",
+        alignItems: "center",
         background:
           theme.palette.mode === "dark"
             ? "linear-gradient(to right, #1a1a2e, #16213e)"
             : "linear-gradient(to right, #f8f9fa, #e9ecef)",
       }}
     >
-      <Container maxWidth="lg">
-        <Grid container spacing={4} alignItems="center">
+      <Container maxWidth="lg" sx={{ height: "100%" }}>
+      <Grid container spacing={4} alignItems="center" sx={{ height: "100%" }}>
           {/* Contenido de texto */}
           <Grid item xs={12} md={7} order={{ xs: 2, md: 1 }}>
             <Stack spacing={3}>
