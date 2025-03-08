@@ -17,13 +17,13 @@ import {
   export default function Projects() {
     const projects = [
       {
-        title: "E-commerce Platform",
-      description:
-        "Desarrollo de una plataforma de comercio electrónico Fullstack, diseñada para gestionar productos, procesar pagos y ofrecer una experiencia de usuario fluida. El proyecto incluye un catálogo de productos, carrito de compras, y un sistema de autenticación y autorización de usuarios mediante JWT. Esta aplicación fue implementada utilizando tecnologías como React, Node.js y MongoDB, con una interfaz moderna desarrollada con Material UI.",
-      image: "/assets/img/e-commerce.png?height=200&width=400",
-      tags: ["React", "Node.js", "MongoDB", "Material UI"],
-      github: "https://github.com/Artenlaclase/Proyecto-7-Aplicaci-nFullStackCE",
-      demo: "https://tiendatiktak.netlify.app/",
+        title: "Proyecto Oceánica Web",
+        description:
+          "Desarrollo del sitio web para Oceánica, una organización dedicada al diseño y desarrollo de aplicaciones y sitios web. El proyecto incluye una interfaz moderna y fluida, implementada con Next.js y Tailwind CSS, y cuenta con animaciones suaves gracias a Framer Motion. Este sitio refleja el enfoque innovador de la organización en el desarrollo de soluciones tecnológicas y su capacidad de adaptación a las necesidades del cliente.",
+        image: "/assets/img/Oceanicaweb.png?height=200&width=400",
+        tags: ["Nextjs", "Tailwind CSS", "Framer Motion"],
+        github: "https://github.com/artenlaclase",
+        demo: "https://oceanicaweb.cl/",
       },
       {
         title: "Proyecto ONG Centro Ecuménico Diego de Medellín",
@@ -35,13 +35,13 @@ import {
       demo: "https://cedmchile.org/",
       },
       {
-        title: "Proyecto Oceánica Web",
-        description:
-          "Desarrollo del sitio web para Oceánica, una organización dedicada al diseño y desarrollo de aplicaciones y sitios web. El proyecto incluye una interfaz moderna y fluida, implementada con Next.js y Tailwind CSS, y cuenta con animaciones suaves gracias a Framer Motion. Este sitio refleja el enfoque innovador de la organización en el desarrollo de soluciones tecnológicas y su capacidad de adaptación a las necesidades del cliente.",
-        image: "/assets/img/Oceanicaweb.png?height=200&width=400",
-        tags: ["Nextjs", "Tailwind CSS", "Framer Motion"],
-        github: "https://github.com/artenlaclase",
-        demo: "https://oceanicaweb.cl/",
+        title: "E-commerce Platform",
+      description:
+        "Desarrollo de una plataforma de comercio electrónico Fullstack, diseñada para gestionar productos, procesar pagos y ofrecer una experiencia de usuario fluida. El proyecto incluye un catálogo de productos, carrito de compras, y un sistema de autenticación y autorización de usuarios mediante JWT. Esta aplicación fue implementada utilizando tecnologías como React, Node.js y MongoDB, con una interfaz moderna desarrollada con Material UI.",
+      image: "/assets/img/e-commerce.png?height=200&width=400",
+      tags: ["React", "Node.js", "MongoDB", "Material UI"],
+      github: "https://github.com/Artenlaclase/Proyecto-7-Aplicaci-nFullStackCE",
+      demo: "https://tiendatiktak.netlify.app/",
       },
     ]
   
