@@ -1,22 +1,18 @@
 "use client"
+import React from "react" // eslint-disable-line  
 import { Box, Container, Typography, Paper, useTheme } from "@mui/material"
 import { motion } from "framer-motion"
 
-interface BlogPost {
-  title: string
-  date: string
-  summary: string
+interface BlogPostParams {
+  params: Promise<{ 
+    slug: string 
+  }>
+ 
 }
 
-interface BlogProps {
-  params: {
-    slug: string
-  }
-}
-
-export default function BlogPost({ params }: BlogProps) {
+export default function BlogPostPage({ params }: BlogPostParams) {
   const theme = useTheme()
-  const { slug } = params
+  const { slug } = React.use(params)
 
   // Simulación de datos de blog - en una aplicación real, estos datos vendrían de una API o CMS
   const post = {
