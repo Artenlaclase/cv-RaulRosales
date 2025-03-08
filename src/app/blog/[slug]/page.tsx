@@ -1,5 +1,5 @@
 "use client"
-import React from "react" // eslint-disable-line  
+import React from "react" 
 import { Box, Container, Typography, Paper, useTheme } from "@mui/material"
 import { motion } from "framer-motion"
 
@@ -12,7 +12,7 @@ interface BlogPostParams {
 
 export default function BlogPostPage({ params }: BlogPostParams) {
   const theme = useTheme()
-  const { slug } = React.use(params)
+  //const { slug } = React.use(params)
 
   // Simulación de datos de blog - en una aplicación real, estos datos vendrían de una API o CMS
   const post = {
