@@ -15,7 +15,8 @@ import {
   SiDjango,
   SiNestjs,
   SiWordpress,
-  SiTailwindcss
+  SiTailwindcss,
+  SiMoodle
 } from "react-icons/si"
 
 export default function Skills() {
@@ -44,6 +45,7 @@ export default function Skills() {
     { name: "Python", level: 65, icon: <SiPython size={24} color="#3776AB" /> },
     { name: "PHP", level: 80, icon: <SiPhp size={24} color="#777BB4" /> },
     { name: "Laravel Artisan", level: 75, icon: <SiLaravel size={24} color="#FF2D20" /> },
+    { name: "Moodle", level: 90, icon: <SiMoodle size={24} color="#E31B23" /> },
     
     
    
