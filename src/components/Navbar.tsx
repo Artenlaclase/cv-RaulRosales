@@ -47,7 +47,7 @@ export default function Navbar() {
     { name: "Habilidades", href: "/#skills" },
     { name: "Educación", href: "/#education" },
     { name: "Proyectos", href: "/#projects" },
-   // { name: "Blog", href: "/blog" },
+    { name: "Blog", href: "/blog" },
   ]
 
   const handleMenuToggle = () => setIsMenuOpen(!isMenuOpen)
