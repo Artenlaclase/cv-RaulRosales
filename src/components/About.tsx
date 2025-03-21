@@ -59,7 +59,7 @@ export default function About() {
 
         <Box sx={{ mx: "auto", maxWidth: "48rem", py: 6 }}>
           <Typography variant="body1" paragraph sx={{ mb: 3, fontSize: "1.125rem" }}>
-            Soy Desarrollador Full Stack con más de tres años de experiencia en el desarrollo de aplicaciones web modernas. Mi pasión por la tecnología comenzó desde temprana edad, explorando herramientas como Dreamweaver, WordPress y Joomla. A lo largo de mi carrera, he perfeccionado mis habilidades en desarrollo frontend y backend.   </Typography>
+          Soy Desarrollador Full Stack con más de tres años de experiencia en el desarrollo de aplicaciones web modernas. En 2024, cursé un Bootcamp de Desarrollo Web Full Stack en la Universidad del Desarrollo, lo que me permitió fortalecer mis habilidades en tecnologías actuales. Mi pasión por la tecnología comenzó desde temprana edad, explorando herramientas como Dreamweaver, WordPress y Joomla. A lo largo de mi carrera, he perfeccionado mis habilidades en desarrollo frontend y backend.   </Typography>
           <Typography variant="body1" paragraph sx={{ mb: 3, fontSize: "1.125rem" }}>
             Cuento con un Magíster en Educación y soy Profesor de Artes Visuales, titulado
             en la Universidad Metropolitana de Ciencias de la Educación (UMCE), además de tener un postítulo como Profesor
